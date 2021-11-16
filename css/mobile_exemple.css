@@ -1,0 +1,1265 @@
+@media screen and (max-width: 767px)
+{
+
+*
+{
+    box-sizing: border-box;
+}
+
+body, html
+{
+    padding: 0;
+    margin: 0;
+}
+
+#bloc-page {
+    max-width: 767px;
+    margin:0 auto;
+}
+
+body, html:not(h1)
+{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+h1
+{
+    font-family: 'Shrikhand', sans-serif;
+}
+
+/* header restaurant à la française*/
+
+#bloc_header_a_la_francaise
+{
+    display: block;
+}
+
+#bloc_header_a_la_francaise div
+{
+    background-color: #ffffff;
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#bloc_header_a_la_francaise div:first-child img:first-child
+{
+    height: 20px;
+    width: 20px;
+}
+
+#bloc_header_a_la_francaise div:first-child img:nth-child(2)
+{
+    width: 40%;
+}
+
+#bloc_header_a_la_francaise div:nth-of-type(2)
+{
+    background-image: url(../img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+
+/* Corps a_la_francaise */
+
+#bloc_corps_a_la_francaise
+{
+    background-color: #eeeeee;
+    border-radius: 40px 40px 0 0;
+    transform: translateY(-70px);
+    padding-top: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+#a_la_francaise
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-right: 35px;
+    padding-bottom: 8px;
+}
+
+#a_la_francaise img
+{
+    height: 25px;
+    width: 25px;
+}
+
+/* Entrée restaurant à la française */
+
+#bloc_entrées_a_la_francaise .les_plats
+{
+    text-transform: uppercase;
+    border-bottom: #99e2d0 3px solid;
+    position: relative;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+#entrées_wrapper_a_la_francaise
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 18px;
+}
+
+#entrées_wrapper_a_la_francaise .entrée
+{
+    height: 65px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+#entrées_wrapper_a_la_francaise .entrée span:only-of-type
+{
+    font-weight: 900;
+}
+
+#entrées_wrapper_a_la_francaise .entrée div
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 7px;
+    font-size: small;
+}
+
+#entrées_wrapper_a_la_francaise .entrée div span:nth-child(2)
+{
+    font-weight: bold;
+}
+
+/* Plats restaurant à la française */
+
+#bloc_plats_a_la_francaise
+{
+    padding-top: 40px;
+}
+
+#bloc_plats_a_la_francaise .les_plats
+{
+    text-transform: uppercase;
+    border-bottom: #99e2d0 3px solid;
+    position: relative;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+#plats_wrapper_a_la_francaise
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 18px;
+}
+
+#plats_wrapper_a_la_francaise .plats
+{
+    height: 65px;
+    width: 100%;
+    background-color:#ffffff;
+    border-radius: 15px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+#plats_wrapper_a_la_francaise .plats span:only-of-type
+{
+    font-weight: 900;
+}
+
+#plats_wrapper_a_la_francaise .plats div
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 7px;
+    font-size: small;
+}
+
+#plats_wrapper_a_la_francaise .plats div span:nth-child(2)
+{
+    font-weight: bold;
+}
+
+
+/* Desserts restaurant à la française */
+
+#bloc_desserts_a_la_francaise
+{
+    padding-top: 40px;
+}
+
+#bloc_desserts_a_la_francaise .les_plats
+{
+    text-transform: uppercase;
+    border-bottom: #99e2d0 3px solid;
+    position: relative;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+#desserts_wrapper_a_la_francaise
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 18px;
+    align-items: center;
+}
+
+#desserts_wrapper_a_la_francaise .desserts
+{
+    height: 65px;
+    width: 100%;
+    background-color:#ffffff;
+    border-radius: 15px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+#desserts_wrapper_a_la_francaise .plats span:only-of-type
+{
+    font-weight: 900;
+}
+
+#desserts_wrapper_a_la_francaise .desserts div
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 7px;
+    font-size: small;
+}
+
+#desserts_wrapper_a_la_francaise .desserts div span:nth-child(2)
+{
+    font-weight: bold;
+}
+
+#bloc_corps_a_la_francaise div button 
+{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: medium;
+    background-image: linear-gradient(#ff79da,#9356dc);
+    border-radius: 40px;
+    padding: 15px 35px 15px 35px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: none;
+    display: flex;
+    vertical-align: center;
+}
+
+
+/*footer restaurant à la française*/
+
+#pied_de_page_a_la_francaise
+{
+    display: inline-block;
+    width: 100%;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    background-color: #333333;
+    color: #ffffff;
+    margin-top: -70px;
+}
+
+#pied_de_page_a_la_francaise div:first-of-type img
+{
+    width: 28%;
+    margin-bottom: 15px;
+}
+
+#pied_de_page_a_la_francaise :nth-of-type(2)
+{
+    padding-bottom: 5px;
+}
+
+#pied_de_page_a_la_francaise div:nth-of-type(2) img
+{
+    width: 15px;
+    height: 15px;
+}
+
+#pied_de_page_a_la_francaise div:nth-of-type(3)
+{
+    padding-bottom: 5px;
+}
+
+#pied_de_page_a_la_francaise div:nth-of-type(3) img
+{
+    width: 15px;
+    height: 15px;
+} 
+
+#pied_de_page_a_la_francaise span
+{
+    font-size: smaller;
+}
+
+#pied_de_page_a_la_francaise div span:first-of-type
+{
+    font-weight: 500;
+}
+
+#pied_de_page_a_la_francaise a
+{
+    text-decoration: none;
+    display: block;
+    padding-top: 5px;
+}
+
+#pied_de_page_a_la_francaise a:visited
+{
+    color: #ffffff;
+} 
+
+
+/* ---------- séparation ---------- */
+
+
+/* header le délice des sens */
+
+#bloc_header_le_délice_des_sens
+{
+    display: block;
+}
+
+#bloc_header_le_délice_des_sens div
+{
+    background-color: #ffffff;
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#bloc_header_le_délice_des_sens div:first-child img:first-child
+{
+    height: 20px;
+    width: 20px;
+}
+
+#bloc_header_le_délice_des_sens div:first-child img:nth-child(2)
+{
+    width: 40%;
+}
+
+#bloc_header_le_délice_des_sens div:nth-of-type(2)
+{
+    background-image: url(../img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+
+/* Corps le_délice_des_sens */
+
+#bloc_corps_le_délice_des_sens
+{
+    background-color: #eeeeee;
+    border-radius: 40px 40px 0 0;
+    transform: translateY(-70px);
+    padding-top: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+#le_délice_des_sens
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-right: 35px;
+    padding-bottom: 8px;
+}
+
+#le_délice_des_sens img
+{
+    height: 25px;
+    width: 25px;
+}
+
+/* Entrée le_délice_des_sens */
+
+#bloc_entrées_le_délice_des_sens .les_plats
+{
+    text-transform: uppercase;
+    border-bottom: #99e2d0 3px solid;
+    position: relative;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+#entrées_wrapper_le_délice_des_sens
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 18px;
+}
+
+#entrées_wrapper_le_délice_des_sens .entrée
+{
+    height: 65px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+#entrées_wrapper_le_délice_des_sens .entrée span:only-of-type
+{
+    font-weight: 900;
+}
+
+#entrées_wrapper_le_délice_des_sens .entrée div
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 7px;
+    font-size: small;
+}
+
+#entrées_wrapper_le_délice_des_sens .entrée div span:nth-child(2)
+{
+    font-weight: bold;
+}
+
+/* Plats le_délice_des_sens */
+
+#bloc_plats_le_délice_des_sens
+{
+    padding-top: 40px;
+}
+
+#bloc_plats_le_délice_des_sens .les_plats
+{
+    text-transform: uppercase;
+    border-bottom: #99e2d0 3px solid;
+    position: relative;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+#plats_wrapper_le_délice_des_sens
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 18px;
+}
+
+#plats_wrapper_le_délice_des_sens .plats
+{
+    height: 65px;
+    width: 100%;
+    background-color:#ffffff;
+    border-radius: 15px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+#plats_wrapper_le_délice_des_sens .plats span:only-of-type
+{
+    font-weight: 900;
+}
+
+#plats_wrapper_le_délice_des_sens .plats div
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 7px;
+    font-size: small;
+}
+
+#plats_wrapper_le_délice_des_sens .plats div span:nth-child(2)
+{
+    font-weight: bold;
+}
+
+
+/* Desserts le_délice_des_sens */
+
+#bloc_desserts_le_délice_des_sens
+{
+    padding-top: 40px;
+}
+
+#bloc_desserts_le_délice_des_sens .les_plats
+{
+    text-transform: uppercase;
+    border-bottom: #99e2d0 3px solid;
+    position: relative;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+#desserts_wrapper_le_délice_des_sens
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 18px;
+    align-items: center;
+}
+
+#desserts_wrapper_le_délice_des_sens .desserts
+{
+    height: 65px;
+    width: 100%;
+    background-color:#ffffff;
+    border-radius: 15px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+#desserts_wrapper_le_délice_des_sens .plats span:only-of-type
+{
+    font-weight: 900;
+}
+
+#desserts_wrapper_le_délice_des_sens .desserts div
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 7px;
+    font-size: small;
+}
+
+#desserts_wrapper_le_délice_des_sens .desserts div span:nth-child(2)
+{
+    font-weight: bold;
+}
+
+#bloc_corps_le_délice_des_sens div button 
+{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: medium;
+    background-image: linear-gradient(#ff79da,#9356dc);
+    border-radius: 40px;
+    padding: 15px 35px 15px 35px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: none;
+    display: flex;
+    vertical-align: center;
+}
+
+
+/* footer le_délice_des_sens */
+
+#pied_de_page_le_délice_des_sens
+{
+    display: inline-block;
+    width: 100%;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    background-color: #333333;
+    color: #ffffff;
+    margin-top: -70px;
+}
+
+#pied_de_page_le_délice_des_sens div:first-of-type img
+{
+    width: 28%;
+    margin-bottom: 15px;
+}
+
+#pied_de_page_le_délice_des_sens :nth-of-type(2)
+{
+    padding-bottom: 5px;
+}
+
+#pied_de_page_le_délice_des_sens div:nth-of-type(2) img
+{
+    width: 15px;
+    height: 15px;
+}
+
+#pied_de_page_le_délice_des_sens div:nth-of-type(3)
+{
+    padding-bottom: 5px;
+}
+
+#pied_de_page_le_délice_des_sens div:nth-of-type(3) img
+{
+    width: 15px;
+    height: 15px;
+} 
+
+#pied_de_page_le_délice_des_sens span
+{
+    font-size: smaller;
+}
+
+#pied_de_page_le_délice_des_sens div span:first-of-type
+{
+    font-weight: 500;
+}
+
+#pied_de_page_le_délice_des_sens a
+{
+    text-decoration: none;
+    display: block;
+    padding-top: 5px;
+}
+
+#pied_de_page_le_délice_des_sens a:visited
+{
+    color: #ffffff;
+} 
+
+
+/* ---------- séparation ---------- */
+
+/* header la_palette_du_gout */
+
+#bloc_header_la_palette_du_gout
+{
+    display: block;
+}
+
+#bloc_header_la_palette_du_gout div
+{
+    background-color: #ffffff;
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#bloc_header_la_palette_du_gout div:first-child img:first-child
+{
+    height: 20px;
+    width: 20px;
+}
+
+#bloc_header_la_palette_du_gout div:first-child img:nth-child(2)
+{
+    width: 40%;
+}
+
+#bloc_header_la_palette_du_gout div:nth-of-type(2)
+{
+    background-image: url(../img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+
+/* Corps la_palette_du_gout */
+
+#bloc_corps_la_palette_du_gout
+{
+    background-color: #eeeeee;
+    border-radius: 40px 40px 0 0;
+    transform: translateY(-70px);
+    padding-top: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+#la_palette_du_gout
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-right: 35px;
+    padding-bottom: 8px;
+}
+
+#la_palette_du_gout img
+{
+    height: 25px;
+    width: 25px;
+}
+
+/* Entrée la_palette_du_gout */
+
+#bloc_entrées_la_palette_du_gout .les_plats
+{
+    text-transform: uppercase;
+    border-bottom: #99e2d0 3px solid;
+    position: relative;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+#entrées_wrapper_la_palette_du_gout
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 18px;
+}
+
+#entrées_wrapper_la_palette_du_gout .entrée
+{
+    height: 65px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+#entrées_wrapper_la_palette_du_gout .entrée span:only-of-type
+{
+    font-weight: 900;
+}
+
+#entrées_wrapper_la_palette_du_gout .entrée div
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 7px;
+    font-size: small;
+}
+
+#entrées_wrapper_la_palette_du_gout .entrée div span:nth-child(2)
+{
+    font-weight: bold;
+}
+
+/* Plats la_palette_du_gout */
+
+#bloc_plats_la_palette_du_gout
+{
+    padding-top: 40px;
+}
+
+#bloc_plats_la_palette_du_gout .les_plats
+{
+    text-transform: uppercase;
+    border-bottom: #99e2d0 3px solid;
+    position: relative;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+#plats_wrapper_la_palette_du_gout
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 18px;
+}
+
+#plats_wrapper_la_palette_du_gout .plats
+{
+    height: 65px;
+    width: 100%;
+    background-color:#ffffff;
+    border-radius: 15px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+#plats_wrapper_la_palette_du_gout .plats span:only-of-type
+{
+    font-weight: 900;
+}
+
+#plats_wrapper_la_palette_du_gout .plats div
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 7px;
+    font-size: small;
+}
+
+#plats_wrapper_la_palette_du_gout .plats div span:nth-child(2)
+{
+    font-weight: bold;
+}
+
+
+/* Desserts la_palette_du_gout */
+
+#bloc_desserts_la_palette_du_gout
+{
+    padding-top: 40px;
+}
+
+#bloc_desserts_la_palette_du_gout .les_plats
+{
+    text-transform: uppercase;
+    border-bottom: #99e2d0 3px solid;
+    position: relative;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+#desserts_wrapper_la_palette_du_gout
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 18px;
+    align-items: center;
+}
+
+#desserts_wrapper_la_palette_du_gout .desserts
+{
+    height: 65px;
+    width: 100%;
+    background-color:#ffffff;
+    border-radius: 15px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+#desserts_wrapper_la_palette_du_gout .plats span:only-of-type
+{
+    font-weight: 900;
+}
+
+#desserts_wrapper_la_palette_du_gout .desserts div
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 7px;
+    font-size: small;
+}
+
+#desserts_wrapper_la_palette_du_gout .desserts div span:nth-child(2)
+{
+    font-weight: bold;
+}
+
+#bloc_corps_la_palette_du_gout div button 
+{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: medium;
+    background-image: linear-gradient(#ff79da,#9356dc);
+    border-radius: 40px;
+    padding: 15px 35px 15px 35px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: none;
+    display: flex;
+    vertical-align: center;
+}
+
+
+/*footer la_palette_du_gout*/
+
+#pied_de_page_la_palette_du_gout
+{
+    display: inline-block;
+    width: 100%;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    background-color: #333333;
+    color: #ffffff;
+    margin-top: -70px;
+}
+
+#pied_de_page_la_palette_du_gout div:first-of-type img
+{
+    width: 28%;
+    margin-bottom: 15px;
+}
+
+#pied_de_page_la_palette_du_gout :nth-of-type(2)
+{
+    padding-bottom: 5px;
+}
+
+#pied_de_page_la_palette_du_gout div:nth-of-type(2) img
+{
+    width: 15px;
+    height: 15px;
+}
+
+#pied_de_page_la_palette_du_gout div:nth-of-type(3)
+{
+    padding-bottom: 5px;
+}
+
+#pied_de_page_la_palette_du_gout div:nth-of-type(3) img
+{
+    width: 15px;
+    height: 15px;
+} 
+
+#pied_de_page_la_palette_du_gout span
+{
+    font-size: smaller;
+}
+
+#pied_de_page_la_palette_du_gout div span:first-of-type
+{
+    font-weight: 500;
+}
+
+#pied_de_page_la_palette_du_gout a
+{
+    text-decoration: none;
+    display: block;
+    padding-top: 5px;
+}
+
+#pied_de_page_la_palette_du_gout a:visited
+{
+    color: #ffffff;
+} 
+
+
+/* ---------- séparation ---------- */
+
+
+/* header la_note_enchantée */
+
+#bloc_header_la_note_enchantée
+{
+    display: block;
+}
+
+#bloc_header_la_note_enchantée div
+{
+    background-color: #ffffff;
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#bloc_header_la_note_enchantée div:first-child img:first-child
+{
+    height: 20px;
+    width: 20px;
+}
+
+#bloc_header_la_note_enchantée div:first-child img:nth-child(2)
+{
+    width: 40%;
+}
+
+#bloc_header_la_note_enchantée div:nth-of-type(2)
+{
+    background-image: url(../img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+
+/* Corps la_note_enchantée*/
+
+#bloc_corps_la_note_enchantée
+{
+    background-color: #eeeeee;
+    border-radius: 40px 40px 0 0;
+    transform: translateY(-70px);
+    padding-top: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+#la_note_enchantée
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-right: 35px;
+    padding-bottom: 8px;
+}
+
+#la_note_enchantée img
+{
+    height: 25px;
+    width: 25px;
+}
+
+/* Entrée la_note_enchantée */
+
+#bloc_entrées_la_note_enchantée .les_plats
+{
+    text-transform: uppercase;
+    border-bottom: #99e2d0 3px solid;
+    position: relative;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+#entrées_wrapper_la_note_enchantée
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 18px;
+}
+
+#entrées_wrapper_la_note_enchantée .entrée
+{
+    height: 65px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+#entrées_wrapper_la_note_enchantée .entrée span:only-of-type
+{
+    font-weight: 900;
+}
+
+#entrées_wrapper_la_note_enchantée .entrée div
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 7px;
+    font-size: small;
+}
+
+#entrées_wrapper_la_note_enchantée .entrée div span:nth-child(2)
+{
+    font-weight: bold;
+}
+
+/* Plats la_note_enchantée */
+
+#bloc_plats_la_note_enchantée
+{
+    padding-top: 40px;
+}
+
+#bloc_plats_la_note_enchantée .les_plats
+{
+    text-transform: uppercase;
+    border-bottom: #99e2d0 3px solid;
+    position: relative;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+#plats_wrapper_la_note_enchantée
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 18px;
+}
+
+#plats_wrapper_la_note_enchantée .plats
+{
+    height: 65px;
+    width: 100%;
+    background-color:#ffffff;
+    border-radius: 15px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+#plats_wrapper_la_note_enchantée .plats span:only-of-type
+{
+    font-weight: 900;
+}
+
+#plats_wrapper_la_note_enchantée .plats div
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 7px;
+    font-size: small;
+}
+
+#plats_wrapper_la_note_enchantée .plats div span:nth-child(2)
+{
+    font-weight: bold;
+}
+
+
+/* Desserts la_note_enchantée */
+
+#bloc_desserts_la_note_enchantée
+{
+    padding-top: 40px;
+}
+
+#bloc_desserts_la_note_enchantée .les_plats
+{
+    text-transform: uppercase;
+    border-bottom: #99e2d0 3px solid;
+    position: relative;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+
+#desserts_wrapper_la_note_enchantée
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 18px;
+    align-items: center;
+}
+
+#desserts_wrapper_la_note_enchantée .desserts
+{
+    height: 65px;
+    width: 100%;
+    background-color:#ffffff;
+    border-radius: 15px;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+#desserts_wrapper_la_note_enchantée .plats span:only-of-type
+{
+    font-weight: 900;
+}
+
+#desserts_wrapper_la_note_enchantée .desserts div
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 7px;
+    font-size: small;
+}
+
+#desserts_wrapper_la_note_enchantée .desserts div span:nth-child(2)
+{
+    font-weight: bold;
+}
+
+#bloc_corps_la_note_enchantée div button 
+{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: medium;
+    background-image: linear-gradient(#ff79da,#9356dc);
+    border-radius: 40px;
+    padding: 15px 35px 15px 35px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: none;
+    display: flex;
+    vertical-align: center;
+}
+
+
+/*footer la_note_enchantée*/
+
+#pied_de_page_la_note_enchantée
+{
+    display: inline-block;
+    width: 100%;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    background-color: #333333;
+    color: #ffffff;
+    margin-top: -70px;
+}
+
+#pied_de_page_la_note_enchantée div:first-of-type img
+{
+    width: 28%;
+    margin-bottom: 15px;
+}
+
+#pied_de_page_la_note_enchantée :nth-of-type(2)
+{
+    padding-bottom: 5px;
+}
+
+#pied_de_page_la_note_enchantée div:nth-of-type(2) img
+{
+    width: 15px;
+    height: 15px;
+}
+
+#pied_de_page_la_note_enchantée div:nth-of-type(3)
+{
+    padding-bottom: 5px;
+}
+
+#pied_de_page_la_note_enchantée div:nth-of-type(3) img
+{
+    width: 15px;
+    height: 15px;
+} 
+
+#pied_de_page_la_note_enchantée span
+{
+    font-size: smaller;
+}
+
+#pied_de_page_la_note_enchantée div span:first-of-type
+{
+    font-weight: 500;
+}
+
+#pied_de_page_la_note_enchantée a
+{
+    text-decoration: none;
+    display: block;
+    padding-top: 5px;
+}
+
+#pied_de_page_la_note_enchantée a:visited
+{
+    color: #ffffff;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+}
